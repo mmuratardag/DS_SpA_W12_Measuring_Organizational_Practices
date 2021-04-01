@@ -30,8 +30,8 @@ This is an ___ongoing___ project, which may end up being a product. At this stag
 	- hiring & firing %s
 	- ranking in global innovation index
 	- etc.
-* The current version is based on "employees talking about their companies" type of data
-	- collect "companies talking about themselves" type of data for a more accurate picture of organizational culture
+* The current version is based on "employees talking about their companies" type of text data
+	- collect & append "companies talking about themselves" type of text data for a more accurate picture of organizational culture
 
 Presentation slides are available at
 <a href="https://1drv.ms/p/s!AuQR1pEfkazylh2iByNFK--lVIUV?e=i8PQcb" target="_blank">https://1drv.ms/p/s!AuQR1pEfkazylh2iByNFK--lVIUV?e=i8PQcb</a>
