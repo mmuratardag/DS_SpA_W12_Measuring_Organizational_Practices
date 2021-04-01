@@ -34,4 +34,4 @@ This is an ___ongoing___ project, which may end up being a product. At this stag
 	- collect & append "companies talking about themselves" type of text data for a more accurate picture of organizational culture
 
 Presentation slides are available at
-<a href="https://1drv.ms/p/s!AuQR1pEfkazylh2iByNFK--lVIUV?e=i8PQcb" target="_blank">https://1drv.ms/p/s!AuQR1pEfkazylh2iByNFK--lVIUV?e=i8PQcb</a>
+<a href="https://1drv.ms/p/s!AuQR1pEfkazylh2iByNFK--lVIUV?e=i8PQcb" target="_blank">https://1drv.ms/p/s!AuQR1pEfkazyliMRvAgVAqcpZ9Ze?e=fFDZ9K</a>

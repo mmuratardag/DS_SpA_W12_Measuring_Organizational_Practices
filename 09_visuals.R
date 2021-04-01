@@ -16,7 +16,8 @@ Company_dfm <- tokens(d$text,
                       remove_url = T,
                       remove_separators = T,
                       split_hyphens = F) %>%
-  tokens_remove(pattern = stopwords("en")) %>% dfm(dictionary = ICdic,  groups = d$Company)
+  tokens_remove(pattern = stopwords("en")) %>% tokens_ngrams(n = c(1,2,3,4)) %>% 
+  dfm(dictionary = ICdic,  groups = d$Company)
 
 Company_dfm_df <- convert(Company_dfm, "data.frame") %>%
   rename(Company = doc_id) %>%
@@ -39,12 +40,13 @@ Company_dfm_df %>%
 
 Industry_dfm <- tokens(d$text,
                        remove_punct = T,
-                       remove_symbols = T,
+                       remove_symbols = F,
                        remove_numbers = T,
                        remove_url = T,
                        remove_separators = T,
                        split_hyphens = F) %>%
-  tokens_remove(pattern = stopwords("en")) %>% dfm(dictionary = ICdic,  groups = d$Industry)
+  tokens_remove(pattern = stopwords("en")) %>% tokens_ngrams(n = c(1,2,3,4)) %>%
+  dfm(dictionary = ICdic,  groups = d$Industry)
 
 Industry_dfm_df <- convert(Industry_dfm, "data.frame") %>%
   rename(Industry = doc_id) %>%
