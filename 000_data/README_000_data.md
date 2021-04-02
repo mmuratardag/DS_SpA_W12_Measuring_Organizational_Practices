@@ -1,1 +1,1 @@
-Can't share the data but a small sample from the corpus will be available here soon... probably as a data frame with perhaps 100 observations or so... all company information will of course be deleted / anonymised
+Can't share the data. A small sample from the corpus is available in the compressed file... Much of the information in the corpus is anonymized.
