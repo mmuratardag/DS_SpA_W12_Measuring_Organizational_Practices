@@ -36,4 +36,4 @@ dfm_dic <- tokens(d$text,
   tokens_ngrams(n = c(1,2,3,4)) %>%
   dfm() %>% dfm_tfidf() %>% dfm_select(ICdic) %>% convert(to = "data.frame")
 
-save(dfm_dic, file = "11_1_extra_stuff.R_for_autoencoder.RData")
+save(dfm_dic, file = "000_data/11_1_extra_stuff.R_for_autoencoder.RData")

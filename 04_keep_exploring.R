@@ -18,6 +18,8 @@ df_efa <- GlassdoorCorpus %>% tokens(remove_punct = T,
 
 library(tidyverse)
 df_efa <- df_efa %>% select (2:407)
+# df_efa_desc <- psych::describe(df_efa)
+# mean(df_efa_desc$max) # 7 ## 58
 
 # do the silly thing
 library(easystats)
@@ -48,7 +50,7 @@ jmlfa_res <- mirtjml_expr(response = as.matrix(df_efa_bin), K = 3)
 
 # `%not_in%` <- Negate(`%in%`)
 
-#vroom::vroom_write(df_efa, "df_efa_for_torch_nn_efa.csv", delim = ",")
+vroom::vroom_write(df_efa_bin, "000_data/df_efa_for_torch_nn_efa.csv", delim = ",")
 # TO DO:
 # apply the deep artificial neural network model: importance-weighted autoencoder (IWAE) for exploratory IFA
 

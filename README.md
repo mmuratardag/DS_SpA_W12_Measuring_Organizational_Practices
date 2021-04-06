@@ -24,7 +24,6 @@ This is a dictionary that measures organizational practices from employee review
 This is an ___ongoing___ project, which may end up being a product. At this stage I'm sharing the dictionary as a .dic file in the LIWC format.
 
 ## TO-DO
-* Fine-tune the dictionary
 * Explore  the associations with some ground truth
 	- revenues / revenue %s for employee well-being
 	- hiring & firing %s
@@ -34,4 +33,4 @@ This is an ___ongoing___ project, which may end up being a product. At this stag
 	- collect & append "companies talking about themselves" type of text data for a more accurate picture of organizational culture
 
 Presentation slides are available at
-<a href="https://1drv.ms/p/s!AuQR1pEfkazylh2iByNFK--lVIUV?e=i8PQcb" target="_blank">https://1drv.ms/p/s!AuQR1pEfkazyliMRvAgVAqcpZ9Ze?e=fFDZ9K</a>
+<a href="https://1drv.ms/p/s!AuQR1pEfkazyliMRvAgVAqcpZ9Ze?e=6k6kS7" target="_blank">https://1drv.ms/p/s!AuQR1pEfkazyliMRvAgVAqcpZ9Ze?e=6k6kS7</a>
