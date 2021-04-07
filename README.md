@@ -10,7 +10,7 @@ This is a dictionary that measures organizational practices from employee review
 * __Explore data & obtain seed words__
 	- Topic modeling
 	- Joint Maximum Likelihood Estimation for High-Dimensional Item Factor Analysis
-	- deep artificial neural network model: importance-weighted autoencoder for exploratory IFA (unfinished; will go back to it; alternative to JMLE)
+	- deep artificial neural network model: importance-weighted autoencoder for exploratory IFA --- Cheers to <a href="https://github.com/cjurban" target="_blank">Christopher J. Urban</a>
 * __Build the dictionary with word2vec__ --- Cheers to <a href="https://academic.oup.com/rfs/advance-article-abstract/doi/10.1093/rfs/hhaa079/5869446?redirectedFrom=fulltext" target="_blank">Kai Li, Feng Mai, Rui Shen, Xinyan Yan</a>
 * __Validate the dictionary__
 	- Check for the pattern of correlations across train / test sets
