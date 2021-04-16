@@ -6,6 +6,8 @@ This project was completed in the final week of the Data Science Bootcamp at Spi
 
 This is a dictionary that measures organizational practices from employee reviews. The project has the following work-flow.
 
+![workflow](workflow.png)
+
 * __Collect / prep data / corpus__ --- Cheers to <a href="https://www.matthewchatham.com/" target="_blank">Matthew Chatham</a>
 * __Explore data & obtain seed words__
 	- Topic modeling
@@ -19,6 +21,21 @@ This is a dictionary that measures organizational practices from employee review
 		- Dictionary (saliency) scores & topic sentiments (estimated with joint sentiment topic models) & regular sentiment scores
 	- Check the associations between dictionary (saliency) scores & dimensions obtained with autoencoders
 * __Visualizations__
+
+## Use case
+
+The measurement instrument is good for quantifying the saliency of the following in employee reviews.
+* the conflict between the interests of employees vs. organization
+* the conflict between employees’ independence to organize their own work vs. need for control & centralization
+* the conflict between stability & change
+
+There is simply no good or bad company culture! By utilizing this measurement instrument companies can see where they are in comparison to 
+#### industry averages
+![industry level](screen_capture_industry.gif)
+as well as
+#### company averages
+![industry level](screen_capture_company.gif)
+and perhaps try to aim for a culture that supports their business strategies and goals.
 
 ## Disclaimer
 This is an ___ongoing___ project, which may end up being a product. At this stage I'm sharing the dictionary as a .dic file in the LIWC format.
