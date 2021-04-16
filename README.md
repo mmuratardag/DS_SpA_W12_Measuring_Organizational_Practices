@@ -38,7 +38,7 @@ as well as
 and perhaps try to aim for a culture that supports their business strategies and goals.
 
 ## Disclaimer
-This is an ___ongoing___ project, which may end up being a product. At this stage I'm sharing the dictionary as a .dic file in the LIWC format.
+This is an ___ongoing___ project, which may end up being a product. At this stage I'm sharing the dictionary as a .dic file in LIWC format.
 
 ## TO-DO
 * Explore  the associations with some ground truth
